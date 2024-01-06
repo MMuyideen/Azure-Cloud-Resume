@@ -1,8 +1,17 @@
-My digital resume hosted in Azure cloud following ACG Project Video https://www.youtube.com/watch?v=ieYrBWmkfno
+This repository contains my Azure Cloud resume project here https://www.mmuyideen.xyz/
 
-Get initial files from Here https://github.com/ACloudGuru-Resources/acg-project-azure-resume-starter
+Tech Stack
 
-## First steps 
+Azure Storage for static website hosting (Html Css)
+Azure Cosmos for counter storage
+Azure Functions for counter incrementation
+Azure CDN for efficient content caching
+GitHub Actions for seamless CI/CD
 
-- Frontend folder contailn the html website
-- main.js  contgains visitor counter code.
+The project, initially done with dotnet 3, posed a challenge that I conquered by recreating it using the latest dotnet 6!
+
+Curious about the process? Dive into the tutorial video here. https://www.youtube.com/watch?v=ieYrBWmkfno
+
+Big shoutout to the original repository: ACG Project Azure Resume Starter. https://github.com/ACloudGuru-Resources/acg-project-azure-resume-starter
+
+Let's connect and discuss all things Cloud and tech
