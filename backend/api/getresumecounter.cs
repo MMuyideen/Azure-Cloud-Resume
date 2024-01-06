@@ -20,8 +20,8 @@ namespace Company.Function
         [FunctionName("getresumecounter")]
         public static HttpResponseMessage Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
-            [CosmosDB(databaseName:"DeenAzureResume", containerName: "counter", Connection = "deenresumeconnectionstring", Id = "1", PartitionKey = "1")] Counter counter, 
-            [CosmosDB(databaseName:"DeenAzureResume", containerName: "counter", Connection = "deenresumeconnectionstring", Id = "1", PartitionKey = "1")] out Counter updatedCounter,
+            [CosmosDB(databaseName:"DeenAzureResume", containerName: "Counter", Connection = "deenresumeconnectionstring", Id = "1", PartitionKey = "1")] Counter counter, 
+            [CosmosDB(databaseName:"DeenAzureResume", containerName: "Counter", Connection = "deenresumeconnectionstring", Id = "1", PartitionKey = "1")] out Counter updatedCounter,
             ILogger log)
         {
             // here is Where the counter gets updated

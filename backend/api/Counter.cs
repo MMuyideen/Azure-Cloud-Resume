@@ -1,3 +1,4 @@
+using Microsoft.Azure.Cosmos.Serialization.HybridRow.Schemas;
 using Newtonsoft.Json;
 
 namespace Company.Function
